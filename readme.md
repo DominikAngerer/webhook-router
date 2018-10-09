@@ -2,11 +2,16 @@
 
 Allows you to consume one webhook and trigger multiple other environments. You can also add your own functionality and checks in here.
 
+## When to use
+
+Most systems allow you to define one automatic hook, sometimes you want to trigger multiple different tasks or multiple environments on that one action, to do so you can use this project.
+
 ## How to 
 
 Make sure you've `node` and `npm` installed:
 
 ```
+# Install dependency
 npm install
 
 # Run the server
