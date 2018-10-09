@@ -1,4 +1,4 @@
-# Basic Node.js Router
+# Basic Node.js Request Forwarder
 
 Allows you to consume one webhook and trigger multiple other environments. You can also add your own functionality and checks in here.
 
