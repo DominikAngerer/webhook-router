@@ -6,7 +6,7 @@ Allows you to consume one webhook and trigger multiple other environments. You c
 
 Most systems allow you to define one automatic hook, sometimes you want to trigger multiple different tasks or multiple environments on that one action, to do so you can use this project.
 
-## How to 
+## How to use
 
 Make sure you've `node` and `npm` installed:
 
