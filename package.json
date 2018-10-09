@@ -1,0 +1,16 @@
+{
+  "name": "webhook-router",
+  "version": "1.0.0",
+  "description": "A simple node.js webhook router",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "http": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dominik Angerer <da@storyblok.com>",
+  "license": "MIT"
+}
