@@ -20,7 +20,7 @@ const server = http.createServer((req, res) => {
 
       req.on('end', () => {
         let request_body = JSON.parse(text_body)
-        console.log('Storyblok Parameters: ' + text_body)
+        console.log('Request Payload: ' + text_body)
 
         for (let index = 0; index < environments.length; index++) {
           axios.post(environments[index], request_body)
